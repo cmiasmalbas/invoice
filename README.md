@@ -50,8 +50,6 @@
   <pre> mkdir invoice </pre>
   
   + Paste the files from **Step 2** in the **invoice** folder:
-  
-  ##### Output
   <pre>fabric-samples/
   | ---- invoice/
               | ---- app.js
@@ -61,5 +59,13 @@
               | ---- startFabric.sh
   </pre>
   
-
+  #### Step 4:
+   + Create a folder **invoice** under **fabric-samples/chaincode/**
+   + Then copy the **go/** folder in this repository or simply create a new folder named **go/** inside **fabric-samples/chaincode/invoice/** then paste it to the directory:
+   <pre>fabric-samples/
+  | ---- chaincode/
+              | ---- invoice/
+                          | ---- go/
+                                      | ---- invoice.go
+  </pre>
 
