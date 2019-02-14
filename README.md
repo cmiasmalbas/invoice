@@ -19,8 +19,7 @@
     <pre> tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz </pre>
     <pre> export PATH=$PATH:/usr/local/go/bin </pre>
   + You can check if go is properly installed by running go version in your terminal.
-    Check also if gopath is correct. 
-    Run **echo $GOPATH**
+    Check also if gopath is correct. <br> Run **echo $GOPATH**
     
 ### Setting up the network:
    
