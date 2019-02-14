@@ -87,6 +87,81 @@
    
   #### Step 7: Test the endpoints using **POSTMAN** or **INSOMNIA REST Client**
     
+  #### Testing Endpoints
+
+  #### Display All Invoices
+  ##### http://localhost:3000/
+  ##### Use the GET http request in this function as we are getting data
+  <br />
+  <br />
+  <br />
+
+  #### Raise Invoice
+  ##### http://localhost:3000/invoice
+  ##### Use the POST http request in this function as we are pushing data
+  Select **Form URL Encoded** as a structure
+  ##### Parameters
+  + invoiceId
+  + invoiceNumber
+  + billedTo
+  + invoiceDate
+  + invoiceAmount
+  + itemDescription
+  + gr
+  + isPaid
+  + paidamount
+  + isRepaid
+  + repaymentAmount
+
+  ##### NOTE: gr , ispaid , paidamount , repaid , repaymentamount default values are as follows false , false , 0 , false , 0
+  **gr = false**
+  <br />
+  **isPaid = false**
+  <br />
+  **paidAmount = 0**
+  <br />
+  **isRepaid = false**
+  <br />
+  **repaymentamount = 0**
+  <br />
+  <br />
+  <br />
+
+  #### Goods Received
+  ##### http://localhost:3000/invoice
+  ##### Use the PUT http request in this function as we are modifying a data
+  Select **Form URL Encoded** as a structure
+
+  ##### Parameters
+  + invoiceId
+  + gr
+  <br />
+  <br />
+  <br />
+
+  #### Bank Payment to Supplier
+  ##### http://localhost:3000/invoice
+  ##### Use the PUT http request in this function as we are modifying a data
+  Select **Form URL Encoded** as a structure
+
+  ##### Parameters
+  + invoiceId
+  + isPaid
+  <br />
+  <br />
+  <br />
+
+  #### OEM Repays to Bank
+  ##### http://localhost:3000/invoice
+  ##### Use the PUT http request in this function as we are modifying a data
+  Select **Form URL Encoded** as a structure
+
+  ##### Parameters
+  + invoiceId
+  + isRepaid
+  <br />
+  <br />
+  <br />
   
     
     
