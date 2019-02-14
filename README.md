@@ -23,9 +23,12 @@
     
 ### Setting up the network:
    
-  #### STEP 1:
+  #### Step 1:
   + Clone the following links by typing the commands below:
     <pre> git clone https://github.com/bchinc/blockchain-training-labs </pre>
     <pre> git clone https://github.com/hyperledger/fabric-samples </pre>
+    
+  #### Step 2:
+  + Open the terminal to create a folder **invoice** 
 
 
