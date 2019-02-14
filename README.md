@@ -31,12 +31,33 @@
     
   #### Step 2:
   + Open the **blockchain-training-labs** folder and go to **node** folder
-  + Copy the following files from **node** folder
-  <br> NOTE: </br> Don't include the **node_modules**
+  + Copy the following files from **node** folder:
+  <pre> blockchain-training-labs/
+  | ---- node/
+              | ---- app.js
+              | ---- enrollAdmin.js
+              | ---- package.json
+              | ---- registerUser.js
+              | ---- startFabric.sh
+  </pre>
   
-  <pre> 
+   + NOTE: Don't include the **node_modules**
+   
   
   #### Step 2:
-  + Open the terminal, go to directory of **fabric-samples** and folder create a folder **invoice** 
+  + Open the terminal, go to the directory of **fabric-samples** and create a **invoice** folder by typing the commands below:
+  <pre> cd fabric-samples </pre>
+  <pre> mkdir invoice </pre>
+  
+  + Paste the files from **Step 1** in the **invoice** folder:
+  <pre>fabric-samples/
+  | ---- invoice/
+              | ---- app.js
+              | ---- enrollAdmin.js
+              | ---- package.json
+              | ---- registerUser.js
+              | ---- startFabric.sh
+  </pre>
+  
 
 
