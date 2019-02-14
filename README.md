@@ -28,20 +28,19 @@
   + Clone the following links/materials by typing the commands below:
     <pre> git clone https://github.com/bchinc/blockchain-training-labs </pre>
     <pre> git clone https://github.com/hyperledger/fabric-samples </pre>
+    <pre> git clone https://github.com/cmiasmalbas/invoice </pre>
     
   #### Step 2:
-  + Open the **blockchain-training-labs** folder and go to **node** folder
-  + Copy the following files from **node** folder:
-  <pre> blockchain-training-labs/
-  | ---- node/
+  + From this repository, open the **invoice** folder and go to **invoice** folder 
+  + Copy the following files from **invoice** folder:
+  <pre> invoice/
+  | ---- invoice/
               | ---- app.js
               | ---- enrollAdmin.js
               | ---- package.json
               | ---- registerUser.js
               | ---- startFabric.sh
   </pre>
-  
-   + NOTE: Don't include the **node_modules**
    
   
   #### Step 3:
@@ -68,4 +67,8 @@
                           | ---- go/
                                       | ---- invoice.go
   </pre>
+  
+  #### Step 5:
+    + Open terminal then change directory to **/fabric-samples/invoice/**
+    + Then run **./startFabric.sh**
 
