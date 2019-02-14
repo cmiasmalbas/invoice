@@ -44,12 +44,14 @@
    + NOTE: Don't include the **node_modules**
    
   
-  #### Step 2:
+  #### Step 3:
   + Open the terminal, go to the directory of **fabric-samples** and create a **invoice** folder by typing the commands below:
   <pre> cd fabric-samples </pre>
   <pre> mkdir invoice </pre>
   
-  + Paste the files from **Step 1** in the **invoice** folder:
+  + Paste the files from **Step 2** in the **invoice** folder:
+  
+  ##### Output
   <pre>fabric-samples/
   | ---- invoice/
               | ---- app.js
