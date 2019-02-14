@@ -76,16 +76,19 @@
    + Then run **node registerUser.js**
    + Then run **node app.js**
    
-  #### Step 6: Installation Of Postman or Insomnia:
-  #### Postman
-  + Go to this link https://www.getpostman.com/downloads/ 
-  + Select the applicable platform for your OS type
-  + Then click Download and Install the application
-  #### Insomnia
-  + Go to this link https://insomnia.rest/download/
-  + Select the applicable platform for your OS type
-  + Then click Download and Install the application
+  #### Step 6: Postman or Insomnia Installation:
+   #### Postman
+   + Go to this link https://www.getpostman.com/downloads/ 
+   + Select the applicable platform for your OS type
+   + Then click Download and Install the application
+   #### Insomnia
+   + Go to this link https://insomnia.rest/download/
+   + Select the applicable platform for your OS type
+   + Then click Download and Install the application
+   
+  #### Step 7: Test the endpoints using **POSTMAN** or **INSOMNIA REST Client**
     
+  
     
     
 
