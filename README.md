@@ -19,16 +19,24 @@
     <pre> tar -C /usr/local -xzf go$VERSION.$OS-$ARCH.tar.gz </pre>
     <pre> export PATH=$PATH:/usr/local/go/bin </pre>
   + You can check if go is properly installed by running go version in your terminal.
-    Check also if gopath is correct. Run **echo $GOPATH**
+    Check also if gopath is correct. 
+    Run **echo $GOPATH**
     
 ### Setting up the network:
    
   #### Step 1:
-  + Clone the following links by typing the commands below:
+  + Clone the following links/materials by typing the commands below:
     <pre> git clone https://github.com/bchinc/blockchain-training-labs </pre>
     <pre> git clone https://github.com/hyperledger/fabric-samples </pre>
     
   #### Step 2:
-  + Open the terminal to create a folder **invoice** 
+  + Open the **blockchain-training-labs** folder and go to **node** folder
+  + Copy the following files from **node** folder
+  <br> NOTE: </br> Don't include the **node_modules**
+  
+  <pre> 
+  
+  #### Step 2:
+  + Open the terminal, go to directory of **fabric-samples** and folder create a folder **invoice** 
 
 
